@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   line-height: 32px;
@@ -11,16 +12,17 @@ body {
 }
 
 .page-header {
-  width: 1920px;
-  height: 860px;
+  width: 1720px;
+  height: 800px;
   margin: 0 auto;
   background-image: url('./image/header-image.jpg');
   background-position: center center;
   margin-bottom: 300px;
+  padding-left: 80px;
 }
 
 .main-nav {
-  padding-top: 38px;
+  padding-top: 20px;
   display: flex;
   margin-bottom: 160px;
 }
@@ -29,12 +31,8 @@ body {
   margin-right: 24px;
 }
 
-.nav-item.active {
-  color: #fcd54c;
-}
-
 .logo {
-  margin-left: 375px;
+  margin-top: 0;
   margin-right: auto;
 }
 
@@ -44,29 +42,32 @@ body {
   color: #fff;
   font-size: 20px;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .page-header-container {
-  margin-left: 375px;
-  margin-bottom: 98px;
+  margin-bottom: 100px;
 }
 
 .page-header-title {
+  margin-top: 0;
   color: #fff;
   font-family: Open Sans;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .page-header-container p {
   color: #fff;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .page-header-container button {
+  font-size: 23px;
   color: #fff;
   text-align: center;
   padding: 18px 15px;
@@ -75,8 +76,8 @@ body {
 }
 
 .page-header-advantages-container {
-  width: 1420px;
-  height: 249px;
+  width: 1400px;
+  height: 250px;
   margin: 0 auto;
   border: 7px solid #fcd54c;
 }
@@ -84,7 +85,7 @@ body {
 .page-header-advantages {
   position: relative;
   top: 30px;
-  left: 57px;
+  left: 60px;
   z-index: 1;
   background-color: #1c1c1c;
 }
@@ -92,14 +93,17 @@ body {
 .page-header-advantages-title {
   color: #fff;
   font-size: 24px;
-  line-height: 45.786px;
-  margin-left: 125px;
+  line-height: 46px;
+  margin-left: 80px;
 }
 
 .page-header-advantages-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .page-header-advantages-item {
@@ -110,37 +114,33 @@ body {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
-  line-height: 45.786px;
+  line-height: 46px;
 }
 
 .main-content {
-  width: 1920px;
+  width: 1800px;
   margin: 0 auto;
 }
 
 .hero {
-  width: 860px;
+  width: 900px;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .hero-title {
+  margin-top: 0;
   color: #000;
   font-size: 32px;
 }
 
 .proposal {
-  width: 1920px;
+  margin: 0 auto;
   padding-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
   padding-bottom: 50px;
-  margin: 0 auto;
-  margin-bottom: 95px;
   background-color: #1c1c1c;
-}
-
-.proposal-content {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .proposal-title {
@@ -151,39 +151,41 @@ body {
 
 .proposal-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   color: #fff;
 }
 
-.proposal-tem-container {
+.proposal-item-container {
   width: 500px;
-  height: 225px;
   border: 4px solid #fcd54c;
 }
 
-.proposal-tem-container img {
+.proposal-item-container img {
   position: relative;
   left: 16px;
   top: 16px;
 }
 
 .plasma-spraying {
-  width: 1920px;
   margin: 0 auto;
-  margin-bottom: 165px;
-}
-
-.plasma-spraying-content {
-  width: 1400px;
-  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 70px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .plasma-spraying-text {
-  width: 640px;
+  width: 600px;
+}
+
+.plasma-spraying-image {
+  width: 600px;
 }
 
 .plasma-spraying-image h2 {
@@ -197,28 +199,23 @@ body {
 }
 
 .сoating-types {
-  width: 1920px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
   background-color: #1c1c1c;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.сoating-types-content {
-  width: 1400px;
-  margin: 0 auto;
 }
 
 .сoating-types-content h2 {
-  margin-left: 100px;
   color: #fcfdfd;
   font-size: 32px;
-  line-height: 52.5px;
 }
 
 .сoating-types-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -237,63 +234,51 @@ body {
   color: #fcd54c;
   font-size: 36px;
   margin-top: 80px;
-  margin-left: 200px;
 }
 
 .сoating-types-text {
   color: #fff;
   font-size: 30px;
-  margin-left: 200px;
+  line-height: 40px;
 }
 
 .сoating-types-list-2 {
   color: #fff;
   font-size: 30px;
-  line-height: 57.232px;
-}
-
-.сoating-types-list-2 li {
-  margin-left: 400px;
+  line-height: 57px;
 }
 
 .sample-work {
-  width: 1920px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-}
-
-.sample-work-content {
-  width: 1400px;
   margin: 0 auto;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .sample-work-content h2 {
-  margin-left: 200px;
   color: #000;
   font-size: 36px;
   font-weight: 600;
-  line-height: 68.678px;
 }
 
 .sample-work-content h3 {
-  margin-left: 200px;
-  color: #000;
   font-size: 32px;
   font-weight: 600;
 }
 
 .sample-work-content p {
   color: #000;
-  margin-left: 200px;
   font-size: 24px;
 }
 
 .sample-work-content-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .sample-work-container {
@@ -308,43 +293,40 @@ body {
 }
 
 .customers {
-  width: 1920px;
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #1c1c1c;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-.customers-content {
-  padding-top: 10px;
-  width: 1400px;
-  margin: 0 auto;
-}
-
-.customers-content h2 {
-  margin-left: 100px;
+.customers h2 {
   color: #fcd54c;
   font-size: 36px;
-  line-height: 59.063px;
 }
 
 .customers-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.form-content h2 {
-  margin-left: 350px;
+.customers h3 {
   color: #fcd54c;
   font-size: 36px;
 }
 
-.form-content p {
-  margin-left: 350px;
+.customers p {
   font-size: 22px;
-  line-height: 36.094px;
+  line-height: 36px;
+  text-align: center;
 }
 
-.form-content input {
+.customers input {
   border: 4px solid #fcd54c;
   background: #f5f5ed;
   display: block;
@@ -354,71 +336,64 @@ body {
   width: 540px;
 }
 
-.form-content textarea {
+.customers textarea {
   border: 4px solid #fcd54c;
   background: #f5f5ed;
   display: block;
   padding: 15px;
   margin: 0 auto;
+  margin-bottom: 15px;
   width: 540px;
 }
 
-.Contacts {
-  width: 1920px;
-  height: 629px;
+.customers button {
+  display: block;
   margin: 0 auto;
-  background-image: url('image/map.jpg');
+  width: 150px;
+  height: 48px;
+  border: 3px solid #fcd54c;
 }
 
-.Contacts-content {
-  width: 1400px;
+.Contacts {
   margin: 0 auto;
   padding-top: 50px;
+  padding-bottom: 60px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-image: url('image/map.jpg');
+  background-position: center center;
 }
 
-.Contacts-content h2 {
+.Contacts h2 {
   color: #fff;
   font-size: 32px;
-  line-height: 61.048px;
-  margin-left: 250px;
+  margin: 0;
 }
 
 .Contacts-list {
-  margin-left: 250px;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
 .Contacts-list p {
   color: #fff;
   font-size: 20px;
-  line-height: 38.155px;
-}
-
-.Contacts-list button {
-  width: 131px;
-  height: 51px;
-  background: #1c1c1c;
-  color: #fcd54c;
-  font-size: 20px;
-  line-height: 38.155px;
 }
 
 .main-footer {
-  width: 1920px;
-  margin: 0 auto;
-  background-color: #1c1c1c;
-}
-
-.main-footer-content {
   width: 1400px;
   margin: 0 auto;
+  background-color: #1c1c1c;
   padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-.main-footer-content .sign {
+.main-footer .sign {
   color: #fcd54c;
   font-size: 14px;
-  line-height: 26.708px;
   text-align: center;
 }
 
@@ -429,10 +404,12 @@ body {
 
 .main-footer-container ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-  line-height: 38.155px;
+  line-height: 40px;
 }
 
 .main-footer-container button {
@@ -441,11 +418,9 @@ body {
   width: 190px;
   height: 55px;
   color: #fff;
-  text-align: center;
   font-size: 14px;
-  line-height: 22.969px;
 }
 
-.main-footer-container .last {
+.main-footer-container-content-2 {
   text-align: center;
 }
