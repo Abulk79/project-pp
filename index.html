@@ -21,11 +21,13 @@
         </p>
         <ul class="nav-list">
           <li class="nav-item">О компании</li>
-          <li class="nav-item">Услуги</li>
-          <li class="nav-item">Плазменное напыление</li>
-          <li class="nav-item">Комплектующие</li>
+          <li class="nav-item"><a href="#anchor-1">Услуги</a></li>
+          <li class="nav-item"><a href="#anchor-2">Плазменное напыление</a></li>
+          <li class="nav-item"><a href="#anchor-3">Комплектующие</a></li>
           <li class="nav-item">
-            <img src="./image/phone.svg" alt="" /> +7 (992) 014-38-77
+            <img src="./image/phone.svg" alt="" /><a href="tel:+79920143877"
+              >+7 (992) 014-38-77</a
+            >
           </li>
         </ul>
       </nav>
@@ -36,7 +38,7 @@
           Мы увеличим срок эксплуатации оборудования и <br />
           снизим денежные затраты на его ремонт
         </p>
-        <button>Оставить заявку</button>
+        <button><a href="#anchor-4">Оставить заявку</a></button>
       </div>
 
       <div class="page-header-advantages-container">
@@ -84,7 +86,7 @@
         </p>
       </section>
 
-      <section class="proposal">
+      <section class="proposal" id="anchor-1">
         <h2 class="proposal-title">Наши предложения</h2>
         <ul class="proposal-list">
           <li>
@@ -116,7 +118,7 @@
         </ul>
       </section>
 
-      <section class="plasma-spraying">
+      <section class="plasma-spraying" id="anchor-2">
         <div class="plasma-spraying-image">
           <h2>Плазменное напыление</h2>
           <img
@@ -170,7 +172,7 @@
         </ol>
       </section>
 
-      <section class="sample-work">
+      <section class="sample-work" id="anchor-3">
         <h2>Пример работ</h2>
         <h3>Описание</h3>
         <p>Нанесение антифрикционного покрытия на деталь гидрораспределителя</p>
@@ -196,17 +198,22 @@
           <li><img src="./image/customers-4.svg" alt="" /></li>
         </ul>
 
-        <h3>Оставьте заявку</h3>
+        <h3 id="anchor-4">Оставьте заявку</h3>
         <p>
           Если остались вопросы, оставьте свою заявку. Специалисты свяжутся с
           вами и помогут найти нужное для вас решение.
         </p>
-        <form action="#">
-          <input type="text" name="" id="" placeholder="Ваше имя*" />
-          <input type="tel" name="" id="" placeholder="Номер телефона*" />
-          <input type="email" name="" id="" placeholder="E-mail*" />
+        <form id="form" action="#">
+          <input type="text" name="name" id="" placeholder="Ваше имя*" />
+          <input
+            type="tel"
+            name="telephone"
+            id=""
+            placeholder="Номер телефона*"
+          />
+          <input type="email" name="email" id="" placeholder="E-mail*" />
           <textarea
-            name=""
+            name="message"
             id=""
             cols="30"
             rows="10"
@@ -226,10 +233,21 @@
             </p>
           </li>
           <li>
-            <p><img src="image/phone.svg" alt="" /> +7 (992) 014-38-77</p>
+            <p>
+              <img src="./image/phone.svg" alt="" /><a href="tel:+79920143877"
+                >+7 (992) 014-38-77</a
+              >
+            </p>
           </li>
+
           <li>
-            <p><img src="image/email.svg" alt="" /> plasmadynamics@yandex.ru</p>
+            <p>
+              <img src="image/email.svg" alt="" /><a
+                href="mailto:plasmadynamics@yandex.ru"
+              >
+                plasmadynamics@yandex.ru</a
+              >
+            </p>
           </li>
         </ul>
       </section>
@@ -246,7 +264,7 @@
         </ul>
         <div class="main-footer-container-content-1">
           <p><img src="image/phone.svg" alt="" /> +7 (992) 014-38-77</p>
-          <button>Оставить заявку</button>
+          <button><a href="#anchor-4">Оставить заявку</a></button>
         </div>
         <div class="main-footer-container-content-2">
           <p>

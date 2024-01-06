@@ -11,6 +11,16 @@ body {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
 .page-header {
   width: 1720px;
   height: 800px;
