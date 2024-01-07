@@ -203,15 +203,33 @@
           Если остались вопросы, оставьте свою заявку. Специалисты свяжутся с
           вами и помогут найти нужное для вас решение.
         </p>
-        <form id="form" action="#">
-          <input type="text" name="name" id="" placeholder="Ваше имя*" />
+        <form
+          id="form"
+          method="post"
+          action="send.php"
+          onsubmit="submitForm(event)"
+        >
+          <input
+            type="text"
+            name="name"
+            id=""
+            placeholder="Ваше имя*"
+            required
+          />
           <input
             type="tel"
             name="telephone"
             id=""
             placeholder="Номер телефона*"
+            required
           />
-          <input type="email" name="email" id="" placeholder="E-mail*" />
+          <input
+            type="email"
+            name="email"
+            id=""
+            placeholder="E-mail*"
+            required
+          />
           <textarea
             name="message"
             id=""
@@ -220,6 +238,7 @@
             placeholder="Сообщение*"
           ></textarea>
           <button type="submit">Отправить</button>
+          <div class="customers-info">Форма отправлена</div>
         </form>
       </section>
 
@@ -280,5 +299,6 @@
         Товарный знак © 2022 Plasma Dynamics – Авторское право сохранено.
       </p>
     </footer>
+    <script src="javascript.js"></script>
   </body>
 </html>
