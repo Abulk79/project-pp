@@ -22,7 +22,7 @@ a:visited {
 }
 
 .page-header {
-  width: 1720px;
+  width: 90%;
   height: 800px;
   margin: 0 auto;
   background-image: url('./image/header-image.jpg');
@@ -86,7 +86,7 @@ a:visited {
 }
 
 .page-header-advantages-container {
-  width: 1400px;
+  width: 85%;
   height: 250px;
   margin: 0 auto;
   border: 7px solid #fcd54c;
@@ -128,12 +128,12 @@ a:visited {
 }
 
 .main-content {
-  width: 1800px;
+  width: 90%;
   margin: 0 auto;
 }
 
 .hero {
-  width: 900px;
+  width: 60%;
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -169,11 +169,13 @@ a:visited {
 }
 
 .proposal-item-container {
-  width: 500px;
+  width: 80%;
   border: 4px solid #fcd54c;
 }
 
 .proposal-item-container img {
+  width: 100%;
+  height: auto;
   position: relative;
   left: 16px;
   top: 16px;
@@ -191,11 +193,11 @@ a:visited {
 }
 
 .plasma-spraying-text {
-  width: 600px;
+  width: 25%;
 }
 
 .plasma-spraying-image {
-  width: 600px;
+  width: 25%;
 }
 
 .plasma-spraying-image h2 {
@@ -231,10 +233,13 @@ a:visited {
 }
 
 .сoating-types-item {
+  width: 15%;
   border: 6px solid #fcd54c;
 }
 
 .сoating-types-item img {
+  width: 100%;
+  height: auto;
   position: relative;
   left: 50px;
   top: 40px;
@@ -297,9 +302,11 @@ a:visited {
 }
 
 .sample-work-container img {
+  width: 100%;
+  height: auto;
   position: relative;
-  top: 200px;
-  left: 150px;
+  top: 130px;
+  left: 130px;
 }
 
 .customers {
@@ -399,7 +406,7 @@ a:visited {
 }
 
 .main-footer {
-  width: 1400px;
+  width: 69%;
   margin: 0 auto;
   background-color: #1c1c1c;
   padding-top: 50px;
